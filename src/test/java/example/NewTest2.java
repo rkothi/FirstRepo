@@ -7,11 +7,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;	
 import org.testng.annotations.BeforeTest;	
 import org.testng.annotations.AfterTest;		
-public class NewTest {		
+public class NewTest2 {		
 	    private WebDriver driver;		
 		@Test				
 		public void testEasy() {	
-			 
+			
 			driver.get("http://demo.guru99.com/selenium/guru99home/");  
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
